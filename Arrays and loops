@@ -1,0 +1,23 @@
+
+
+// Create an array of numbers
+let numbers = [20, 30, 40, 50, 60];
+
+// Initialize variables to store sum and average
+let sum = 0;
+let average;
+
+// Calculate the sum using a loop
+for (let i = 0; i < numbers.length; i++) {
+  sum += numbers[i];
+}
+
+// Calculate the average
+average = sum / numbers.length;
+
+// Display the results
+console.log("Numbers: " + numbers);
+console.log("Sum: " + sum);
+console.log("Average: " + average);
+
+
